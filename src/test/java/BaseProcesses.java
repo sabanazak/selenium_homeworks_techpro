@@ -13,7 +13,7 @@ public class BaseProcesses {
     public void setUp() {
         //System.setProperty("webdriver.chrome.driver","./src/resources/driver/chromedriver.exe");
         //driver=new ChromeDriver();
-        //comment
+        //comment 1
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
