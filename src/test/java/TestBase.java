@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class BaseProcesses {
+public class TestBase {
 
     protected static WebDriver driver;
     @Before

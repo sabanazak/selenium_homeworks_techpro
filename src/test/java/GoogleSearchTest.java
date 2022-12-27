@@ -1,17 +1,11 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class GoogleSearchTest extends BaseProcesses  {
+public class GoogleSearchTest extends TestBase {
     /*
         Create a new class : GoogleSearchTest
         Create main method and complete the following task.

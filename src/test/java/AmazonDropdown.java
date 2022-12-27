@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class AmazonDropdown extends BaseProcesses {
+public class AmazonDropdown extends TestBase {
     /*
         Create A Class: AmazonDropdown
         Create A Method dropdownTest
